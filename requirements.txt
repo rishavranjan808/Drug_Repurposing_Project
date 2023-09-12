@@ -1,0 +1,6 @@
+debugpy
+rdkit-pypi
+Flask
+pandas
+matplotlib
+shapely
