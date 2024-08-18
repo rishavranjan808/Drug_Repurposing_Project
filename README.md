@@ -30,7 +30,7 @@ The tool allows you to upload one or more .sdf files containing molecular struct
 ### Run the Script:
 To execute the model, simply run the provided script:
 
-### python pyBOILEDegg.py
+### python frontend.py
 
 This will process the uploaded .sdf files and generate the output files.
 
