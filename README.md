@@ -1,5 +1,5 @@
 BOILED-Egg Model Predictor
-Welcome to the BOILED-Egg Model Predictor repository. This project provides a comprehensive tool for predicting gastrointestinal absorption (GIA) and blood-brain barrier (BBB) penetration based on molecular properties derived from the BOILED-Egg model. The project is implemented in Python and uses RDKit for cheminformatics, and Shapely for geometric analysis.
+Welcome to the BOILED-Egg Model Predictor repository. This project provides a comprehensive tool for predicting gastrointestinal absorption (GIA) and blood-brain barrier (BBB) penetration based on molecular properties derived from the BOILED-Egg model. The project is implemented in Python and uses RDKit for cheminformatics and Shapely for geometric analysis.
 
 Project Overview
 The BOILED-Egg model, developed by Daina and Zoete in 2016, is a widely recognized method for predicting the absorption and distribution of drugs within the human body based on molecular properties. This tool allows users to upload molecular structure data files in .sdf format, process the molecular data, and output predictions of GIA and BBB penetration.
@@ -65,6 +65,11 @@ example_molecules_BOILED_Egg_plot.pdf
 example_molecules_BOILED_Egg_plot.png
 The scatter plot illustrates the position of each molecule in the TPSA-WLogP space, making it easy to visualize their absorption and distribution potential.
 
+Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs, enhancements, or suggestions.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 References
 Daina, A., & Zoete, V. (2016). A BOILED-Egg to predict gastrointestinal absorption and brain penetration of small molecules. Chemical Research in Toxicology, 29(5), 953-963.
