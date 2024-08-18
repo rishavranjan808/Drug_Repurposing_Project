@@ -22,3 +22,24 @@ For each molecule, TPSA and WLogP are calculated, and it is determined whether t
 
 A CSV file summarizing the molecular properties and their classification concerning GIA/BBB regions.
 A scatter plot visualizing the TPSA-WLogP space, with the GIA and BBB regions overlaid. The plot is saved as both PDF and PNG files.
+
+## Usage
+### Upload .SDF Files:
+The tool allows you to upload one or more .sdf files containing molecular structures.
+
+### Run the Script:
+To execute the model, simply run the provided script:
+
+### python pyBOILEDegg.py
+
+This will process the uploaded .sdf files and generate the output files.
+
+### Output Files:
+
+CSV File: A file with the suffix _BOILED_Egg.csv will be created for each input file. This file contains the calculated TPSA and WLogP values, along with the GIA and BBB predictions.
+Scatter Plot: A plot showing the molecular data points within the TPSA-WLogP space, overlaid with the GIA and BBB ellipses, will be saved as both PDF and PNG files.
+
+## References
+### Daina, A., & Zoete, V. (2016). A BOILED-Egg to predict gastrointestinal absorption and brain penetration of small molecules. Chemical Research in Toxicology, 29(5), 953-963.
+### Milne, B. (2021, April 28). bfmilne/pyBOILEDegg. First release of pyBOILEDegg (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4725530
+
